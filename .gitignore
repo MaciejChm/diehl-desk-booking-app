@@ -28,11 +28,28 @@ build
 dist
 
 
-# Debug
+# Debug & Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 
 # Misc
 .DS_Store
+Thumbs.db
 *.pem
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Editor temp files
+*.swp
+*.swo
+*~
+
+# Prisma
+.prisma/
+
+# Linters cache
+.eslintcache
