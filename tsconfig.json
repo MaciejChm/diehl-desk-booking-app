@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "@types/*": ["packages/types/*"],
+      "@/*": ["./apps/web/src/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "incremental": true
+  },
+  "references": [
+    { "path": "./apps/api" },
+    { "path": "./packages/types" }
+  ]
+}
